@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    display: block;
+}
+
+header {
+    margin: 0px;
+}
+
+.upper_nav {
+    margin: 0px 165px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    height: 40px;
+    width: 110px;
+    top: 6px;
+}
+
+
+h1.brand {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    height: 25px;
+    width: 92px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Plus Jakarta Sans;
+    line-height: 25.2px;
+    color: #000;
+}
+
+img.icon {
+    width: 33px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* align-content: center; */
+    align-items: center;
+}
+
+.profile_icon {
+    height: 32px;
+    width: 32px;
+    border: 1px #AFAFAF;
+    margin-right: 3.5px;
+}
+
+.profile_name {
+    height: 16px;
+    /* width: 83px; */
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15.73.px;
+    display: inline;
+    margin: 0px 3.5px;
+}
+
+h3.name {
+    display: inline;
+}
+
+.dropdown {
+    margin: 0px 3.5px;
+}
+
+img.dropdown_icon {
+    height: 5px;
+    width: 10px;
+}
