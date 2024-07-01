@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    display: block;
+    background-color: #F5F8FF;
+}
+
+nav.navigation {
+    padding-left: 165px;
+    padding-right: 165px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+}
+
+.top-nav {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.logo {
+    display:inline-block;
+    position: relative;
+    width: 110px;
+    height: 40px;
+    top: 6px;
+}
+
+.frame{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+h1.brand {
+    width: 92px;
+    height: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25.2px;
+    color: #000;
+    margin: 0px 0px;
+    display: inline-block;
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+}
+
+img.icon {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20.01px;
+    width: 33.01px;
+}
+
+.Profile {
+    padding-right: 165px;
+    position: absolute;
+    right: 0px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.profil-img {
+    margin: 1px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border: 1px #afafaf;
+    align-content: center;
+}
+
+h3 {
+    margin: 1px;
+    flex-wrap: nowrap;
+    display: block;
+    height: 16px;
+    width: 83px;
+    font-weight: 600;
+    size: 13px;
+    line-height: 15.73px;
+    color: #000;
+}
