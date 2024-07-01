@@ -10,15 +10,17 @@ body {
 
 .container {
     display: flex;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* background-color: #fff; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
     overflow: hidden;
 }
 
 .form-container {
     padding: 20px;
     width: 350px;
+    background-color: #fff;
+    border-radius: 8px;
 }
 
 .registration-form h2 {
@@ -81,7 +83,7 @@ button:hover {
 .form-info {
     background-color: #2979ff;
     color: #fff;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,6 +91,6 @@ button:hover {
 }
 
 .form-info h1 {
-    font-size: 50px;
+    font-size: 100px;
     margin: 0;
 }
