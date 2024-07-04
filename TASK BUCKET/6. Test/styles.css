@@ -1,0 +1,38 @@
+a{
+    color: red;
+    text-decoration: none;
+}
+
+section.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.card {
+    border: 2px solid black;
+    display: inline;
+    height: fit-content;
+    width: 360px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+img {
+    height: 200px;
+    width: 350px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.corner {
+    color: blue;
+    right: 0px;
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
